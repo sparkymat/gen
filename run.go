@@ -5,7 +5,7 @@ import (
 	"os"
 	"text/template"
 
-	"github.com/clipperhouse/typewriter"
+	"github.com/sparkymat/typewriter"
 )
 
 func run(c config) error {
@@ -13,7 +13,7 @@ func run(c config) error {
 		typewriter.ImportSpec{Path: "fmt"},
 		typewriter.ImportSpec{Path: "os"},
 		typewriter.ImportSpec{Path: "regexp"},
-		typewriter.ImportSpec{Path: "github.com/clipperhouse/typewriter"},
+		typewriter.ImportSpec{Path: "github.com/sparkymat/typewriter"},
 	)
 
 	return execute(runStandard, c, imports, runTmpl)

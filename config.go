@@ -4,7 +4,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/clipperhouse/typewriter"
+	"github.com/sparkymat/typewriter"
 )
 
 type config struct {

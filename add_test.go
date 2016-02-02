@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/clipperhouse/typewriter"
+	"github.com/sparkymat/typewriter"
 )
 
 func TestAdd(t *testing.T) {
